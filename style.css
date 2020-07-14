@@ -1,0 +1,112 @@
+h1{
+  color: orange;
+  font font-family: serif;
+  font-size: 45px;
+  line-height: 1.7;
+  letter-spacing: 1px;
+ }
+
+h2{
+ 	color: red;
+ 	font-size: 45px;
+  font-family: Helvetica;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  }
+h3{
+  	color: green;
+  	font-family: sans-serif;
+  	font-size: 45px;
+  	line-height: 1.7;
+    letter-spacing: 1px;
+  }
+a {
+  color: yellow;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  }
+body{
+    background: #f3f3f3;                       
+    padding: 30px;                           
+    border-radius: 4px;                       
+    font-size: 30px;
+  	line-height: 1.8;
+  	letter-spacing: 1px;
+  	text-align: justify;
+  	text-decoration: none;
+  	font-family: arial;
+    /*margin:80px 0px 40px 16px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 2px dotted black;
+    border-bottom: 1px dashed green;
+    border-left: 2px dotted black;
+    width: 300px;
+    margin: 0px auto;*/
+  }
+img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+   }
+  
+.clickme{
+     font-family: italic;
+  }
+.container{
+    width: 700px;
+    margin: 40px auto;
+  }
+  .card-white{
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+  }
+  .btn-blue{
+    color: white;
+    background: #6B72E1;
+    font-family: san-serif;
+    padding: 15px 20px;
+    border-radius: 4px
+  }
+  .btn-blue:hover{
+    background-color: black;
+    color: white;
+  }
+  .list-inline{
+    list-style: none;
+    padding-left: 0px;
+  }
+  .list-inline li {
+    display: inline;  
+    padding: 10px;
+  }
+  .list-inline i{
+    font-size: 50px; 
+    color: rgba(230,230,230);
+  }
+   .list-inline i:hover { 
+    color: black;
+  }
+  #introduction .clickme {
+    margin-bottom: 40px;
+  }
+    @media (max-width: 960px) {
+    .container{
+      width: 700px;
+    }
+    
+   @media (max-width: 720px) {
+    .container{
+      width: 500px;
+    }
+    
+  }
+  @media (max-width: 540px) {
+    .container{
+      width: 300px;
+    }
+    
+  }
